@@ -9,6 +9,7 @@ class Ability
     elsif customer.role? :user
        can(:manage , Order){ |order| order.customer_id == customer.id }
       
+       #random change
 
       # equal to
       # can(:update , Album){ |resource| resource.user_id == user.id }
