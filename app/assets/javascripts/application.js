@@ -12,6 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require angular
+//= require angular-route
+//= require main
 //= require underscore
 //= require bootstrap
 //= require jquery.easing
@@ -22,6 +25,7 @@
 //= require freelancer
 //= require bootstrapValidator-min
 //= require orders
+//= require_tree .
 
 
 

@@ -1,0 +1,10 @@
+<p>Welcome to the products page</p>
+
+<a href="/#">index</a>
+<ul ng-repeat="picture in pictures">
+  <li>{{picture}})</li>
+  <li>{{picture.images.low_resolution.url}}</li>
+<!--   <li><a ng-click="viewRestaurant(restaurant.id)">{{ restaurant.name }}</a></li> -->
+<img ng-src="{{picture.images.low_resolution.url}}">
+</ul>
+

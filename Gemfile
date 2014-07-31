@@ -13,7 +13,7 @@ gem 'omniauth-instagram', '~> 1.0.1'
 gem 'instagram'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'high_voltage'
-
+gem 'angularjs-rails'
 gem 'devise', '~> 3.2.4'
 gem 'jquery-rails'
 gem 'jquery-easing-rails'
@@ -33,7 +33,7 @@ gem "fog", "~> 1.3.1"
 gem 'sinatra', '>= 1.3.0', :require => nil
 gem 'sidekiq'
 gem 'stripe_event'
-gem "letter_opener"
+
 
 group :development do
   gem 'pry-rails'
