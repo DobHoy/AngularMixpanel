@@ -8,7 +8,7 @@
 #     $scope.restaurant = data
 #   )
 # ]
-@mixpanelApp.controller 'HomeCtrl', ['$scope','$http', ($scope, $http) ->
+@mixpanelApp.controller 'HomeCtrl', ['$scope','$http','$location', ($scope, $http, $location) ->
   $scope.foo = 'bar'
   console.log 'ji'
   $scope.pictures = []
@@ -16,6 +16,8 @@
   $http.get('./products.json').success((data) ->
     $scope.pictures = data
   )
+  # $scope.viewPic = (id) ->
+  #   $location.url "/pictures/#{id}" 
   console.log $scope.pictures
 
 ]

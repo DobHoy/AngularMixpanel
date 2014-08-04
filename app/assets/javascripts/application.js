@@ -16,6 +16,7 @@
 //= require angular-route
 //= require main
 //= require underscore
+//= require mixpanelJS
 //= require bootstrap
 //= require jquery.easing
 //= require jquery_nested_form
